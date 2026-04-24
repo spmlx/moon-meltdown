@@ -52,21 +52,43 @@ img{
 }
 
 
-/* CAROUSEL BANNER */
-.carousel{
-    display:flex;
-    justify-content: center;
-    
-}
+/* INFO SECTION */
 
-/* RECENT WORKS */
-.recent-works{
+.information-section{
     height: 800px;
     display:flex;
     justify-content: center;
     align-items: center;
-
-    gap:24px;
 }
 
+.info-card{
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
+    font-family: dosis;
+}
+
+.info-card img{
+    margin:16px;
+}
+
+.mm-name{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin:0;
+
+
+}
+.photog-name{
+    font-weight: 500;
+    font-size: 2rem;
+    
+    margin:0px;
+
+}
+.photog-details{
+    margin-top:4px;
+    margin-bottom:0px
+}
