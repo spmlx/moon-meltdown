@@ -92,3 +92,50 @@ img{
     margin-top:4px;
     margin-bottom:0px
 }
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+.footer-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height:96px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-nav{
+    display:flex;
+    gap:40px;
+}
+
+.footer-gn, .footer-sl{
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.mm-copyright{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:24px;
+    font-size: 12px;
+
+    
+    gap:0px;
+    margin:0px;
+
+}
+
+
+
+
